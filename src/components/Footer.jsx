@@ -119,7 +119,8 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-slate-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
           <p>
-            © {new Date().getFullYear()} Aditi Real Estate. All rights reserved.
+            © {new Date().getFullYear()} Shree Sawariya Real Estate. All rights
+            reserved.
           </p>
         </div>
       </div>
