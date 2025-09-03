@@ -11,15 +11,6 @@ import {
 } from "lucide-react";
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
-
-  const handleSubscribe = () => {
-    if (email.trim()) {
-      alert(`Subscribed with email: ${email}`);
-      setEmail("");
-    }
-  };
-
   const listingOptions = [
     { name: "All Listings", href: "/list" },
     { name: "Buy", href: "/properties/buy" },
@@ -39,7 +30,9 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Home className="w-8 h-8 text-blue-400" />
-              <span className="text-xl font-bold">Aditi hd Real Estate</span>
+              <span className="text-xl font-bold">
+                Shree Sawariya Real Estate
+              </span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Trusted in real estate for plots, row houses, farm houses, and
@@ -54,12 +47,12 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-green-400 flex-shrink-0" />
-                <span className="text-gray-300">+91 7224043913</span>
+                <span className="text-gray-300">+91 9826411866</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-blue-400 flex-shrink-0" />
                 <span className="text-gray-300">
-                  aditihdrealestate@gmail.com
+                  info@shreesanwariyarealestate.in
                 </span>
               </div>
             </div>
